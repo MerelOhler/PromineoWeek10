@@ -27,25 +27,5 @@ public class DBConnection {
                     }
          }
          return DBConnection.connection;
-     }
-    //     String read = "SELECT * FROM book WHERE BookID > ? LIMIT 100";
-    //     Scanner kb = new Scanner(System.in);
-    //     try {
-    //         Connection access = DriverManager.getConnection(DBConn, "root", "qwer1234!");
-    //         System.out.println("you are connected");
-    //         PreparedStatement statement = access.prepareStatement(read);
-    //         String num = kb.nextLine();
-    //         statement.setString(1, num);
-    //         ResultSet results = statement.executeQuery();
-    //         while(results.next()){
-    //             System.out.println("OriginalBookName: " + results.getString(2));
-    //         }
-    //     }
-    //     catch(SQLException e){
-    //         System.out.println("Access denied");
-    //         e.printStackTrace();
-    //     }
-
-    //     kb.close();
-    
+     }    
 }

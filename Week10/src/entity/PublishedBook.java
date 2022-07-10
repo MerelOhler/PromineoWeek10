@@ -16,27 +16,7 @@ public class PublishedBook {
     private boolean finished = false;
     private Date dateFinished;
     
-    public PublishedBook(Book book, String publishedBookName, int yearPublished, Publisher publisher, Language language,
-            String translator) {
-        this.book = book;
-        this.publishedBookName = publishedBookName;
-        this.yearPublished = yearPublished;
-        this.publisher = publisher;
-        this.language = language;
-        this.translator = translator;
-    }
-
-    public PublishedBook(Book book, String publishedBookName, int yearPublished, Publisher publisher,
-            Language language) {
-        this.book = book;
-        this.publishedBookName = publishedBookName;
-        this.yearPublished = yearPublished;
-        this.publisher = publisher;
-        this.language = language;
-        this.translator = null;
-    }
-
-    
+   
     public PublishedBook(int publishedBookID, Book book, String publishedBookName, int yearPublished,
             Publisher publisher, Language language, String translator, Date dateFinished) {
         this.publishedBookID = publishedBookID;

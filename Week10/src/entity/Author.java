@@ -8,38 +8,6 @@ public class Author {
     private String aka;
     private boolean hasAka;
 
-    public Author (String firstName, String lastName){
-        this.firstName = firstName;
-        this.middleName = null;
-        this.lastName = lastName;
-        this.hasAka = false;
-        this.aka = null; 
-    }
-
-    public Author (String firstName, String middleName, String lastName){
-        this.firstName = firstName;
-        this.middleName = middleName;
-        this.lastName = lastName;
-        this.hasAka = false;
-        this.aka = null;
-    }
-
-    public Author (String firstName, String lastName, boolean hasAka, String aka){
-        this.firstName = firstName;
-        this.middleName = null;
-        this.lastName = lastName;
-        this.hasAka = hasAka;
-        this.aka = aka;
-    }
-
-    public Author (String firstName, String middleName, String lastName, boolean hasAka, String aka){
-        this.firstName = firstName;
-        this.middleName = middleName;
-        this.lastName = lastName;
-        this.hasAka = hasAka;
-        this.aka = aka;
-    }
-
     public Author(int authorID, String firstName, String middleName, String lastName, String aka) {
         this.authorID = authorID;
         this.firstName = firstName;
